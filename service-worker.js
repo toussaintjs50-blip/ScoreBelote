@@ -1,8 +1,8 @@
 'use strict';
 
 // Le HTML contient toute l’application : une mise à jour de index.html suffit.
-// Modifier CACHE_VERSION uniquement si la logique de ce fichier change.
-const CACHE_VERSION = 'v2';
+// Modifier CACHE_VERSION si ce fichier, le manifeste ou les icônes changent.
+const CACHE_VERSION = 'v3-icons-20261122';
 const CACHE_PREFIX = 'score-' + self.registration.scope;
 const CACHE_NAME = CACHE_PREFIX + '-' + CACHE_VERSION;
 const INDEX_URL = new URL('./index.html', self.registration.scope).href;
